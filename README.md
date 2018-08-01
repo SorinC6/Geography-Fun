@@ -9,3 +9,5 @@ This app contains:
 -geography trivia using SQL databases
 -compassa
 -two fun games
+
+![Ecran Splash](https://github.com/Sorin006/Geography-Fun/blob/master/images/ecranSplash.png)
