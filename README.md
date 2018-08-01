@@ -10,9 +10,9 @@ This app contains:
 
 -protected area pictures
 
--geography trivia using SQL databases
+-geography trivia using SQLite databases
 
--compassa
+-compass
 
 -two fun games
 
