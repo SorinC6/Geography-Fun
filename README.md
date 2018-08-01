@@ -8,8 +8,11 @@ This app contains:
 -a fun part of geography
 
 -protected area pictures
+
 -geography trivia using SQL databases
+
 -compassa
+
 -two fun games
 
 ![Ecran Splash](https://github.com/Sorin006/Geography-Fun/blob/master/images/ecranSplash.png)
