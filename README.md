@@ -16,3 +16,5 @@ This app contains:
 -two fun games
 
 ![Ecran Splash](https://github.com/Sorin006/Geography-Fun/blob/master/images/ecranSplash.png)
+
+![Ecran Splash](https://github.com/Sorin006/Geography-Fun/blob/master/images/ecran2.png)
