@@ -9,4 +9,3 @@ This app contains:
 -geography trivia using SQL databases
 -compassa
 -two fun games
-
