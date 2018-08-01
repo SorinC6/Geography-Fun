@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jocuridemunte.XsiOActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="20dp"
+        android:text="X si O"
+        android:textColor="#ca3838"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/B2"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:background="#33b5e5"
+        android:minHeight="64dip"
+        android:text=""
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_alignBaseline="@+id/B2"
+        android:layout_alignBottom="@+id/B2"
+        android:layout_margin="16dp"
+        android:layout_toLeftOf="@+id/B2"
+        android:background="#33b5e5"
+        android:minHeight="64dip"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/B3"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:layout_toRightOf="@+id/B2"
+        android:background="#33b5e5"
+        android:minHeight="64dip"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/A1"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_above="@+id/B1"
+        android:layout_alignLeft="@+id/B1"
+        android:background="#33b5e5"
+
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/A2"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_alignBaseline="@+id/A1"
+        android:layout_alignBottom="@+id/A1"
+        android:layout_alignLeft="@+id/B2"
+        android:background="#33b5e5"
+        android:minHeight="64dip"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/A3"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_alignBaseline="@+id/A2"
+        android:layout_alignBottom="@+id/A2"
+        android:layout_alignLeft="@+id/B3"
+        android:background="#33b5e5"
+        android:minHeight="64dip"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/C3"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_alignLeft="@+id/B3"
+        android:layout_below="@+id/B3"
+        android:background="#33b5e5"
+        android:minHeight="64dip"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/C2"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_alignBaseline="@+id/C3"
+        android:layout_alignBottom="@+id/C3"
+        android:layout_alignLeft="@+id/B2"
+        android:background="#33b5e5"
+        android:minHeight="64dip"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/C1"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_alignBaseline="@+id/C2"
+        android:layout_alignBottom="@+id/C2"
+        android:layout_alignLeft="@+id/B1"
+        android:background="#33b5e5"
+        android:minHeight="64dip"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonformatest"
+        android:text="New Game" />
+
+
+</RelativeLayout>

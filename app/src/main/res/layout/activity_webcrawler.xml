@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#899e7d"
+    tools:context="com.example.sorin.geofun.webcrawler.WebCrawlerActivity">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pentrubutoanedeintoarcere"
+        android:text="Inapoi la meniul principal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="60dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textInfoCrawler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pentrubutoanedeintoarcere"
+        android:textAlignment="textStart"
+        android:layout_marginTop="2dp"
+        android:scrollbars="vertical"
+
+        android:gravity="start" />
+
+
+
+    <TextView
+        android:id="@+id/textTitlu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="10dp"
+
+        android:textColor="@color/colorPrimary"
+        android:layout_above="@+id/textInfoCrawler"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonformatest"
+        />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".mainthing.Splash_Activity">
+
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifCUteID"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/cutegif"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/darker_gray"
+        />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/think"
+        android:layout_above="@id/gifCUteID"
+        />
+
+    <TextView
+        android:id="@+id/textViewSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_centerHorizontal="true"
+        android:text="LOADING APPLICATION..."
+        android:textSize="25dp" />
+
+</RelativeLayout>

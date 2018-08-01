@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayoutMainID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        tools:context="com.example.sorin.geofun.mainthing.MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/gis"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/textId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:gravity="center"
+            android:text="Introduceti obiectivul cautat"
+            android:textSize="18sp"
+            android:visibility="visible"
+            android:layout_marginLeft="60dp" />
+
+        <EditText
+            android:id="@+id/textSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="250dp"
+            android:layout_below="@+id/textId"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            />
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSearch"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rectangle"
+            android:text="@string/cauta"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageViewFunFactsID"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="@drawable/fanfacts"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/buttonSearch"/>
+        <Button
+            android:id="@+id/buttonFunFacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/imageViewFunFactsID"
+            android:background="@drawable/rectangle"
+            android:text="Informatii Amuzante" />
+
+        <ImageView
+            android:id="@+id/imageViewAriiProtejateID"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/buttonFunFacts"
+            android:background="@drawable/protectedareas"
+
+            />
+
+        <Button
+            android:id="@+id/buttonHarti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewAriiProtejateID"
+            android:layout_marginTop="4dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/rectangle"
+            android:text="Arii Protejate in Romania" />
+
+
+        <ImageView
+            android:id="@+id/imageViewTriviaID"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/buttonHarti"
+            android:background="@drawable/trivia"/>
+        <Button
+            android:id="@+id/buttonTrivia"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imageViewTriviaID"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rectangle"
+            android:text="Trivia" />
+
+
+        <ImageView
+            android:id="@+id/imageViewGamesID"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/buttonTrivia"
+            android:background="@drawable/games"/>
+        <Button
+            android:id="@+id/buttonJocuriID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageViewGamesID"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rectangle"
+            android:text="Jocuri de munte" />
+
+
+        <ImageView
+            android:id="@+id/imageViewBusolaID"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/buttonJocuriID"
+            android:background="@drawable/compas"/>
+
+        <Button
+            android:id="@+id/buttonBusolaID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSOLA"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rectangle"
+            android:layout_below="@id/imageViewBusolaID"/>
+
+        <ImageView
+            android:id="@+id/imageViewAboutID"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/buttonBusolaID"
+            android:background="@drawable/about"/>
+
+        <Button
+            android:id="@+id/buttonAbout"
+            android:layout_width="82dp"
+            android:layout_height="39dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageViewAboutID"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/cerc"
+            android:text="Despre" />
+
+    </RelativeLayout>
+</ScrollView>
+
+

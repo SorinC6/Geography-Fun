@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sorin.geofun">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".mainthing.Splash_Activity"
+
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+        </activity>
+        <activity android:name=".webcrawler.WebCrawlerActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".funfacts.FunFactsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".trivia.TriviaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".mainthing.AboutActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".trivia.ActivityIntrebari"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".hartiariiprotejate.PictureActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".mainthing.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".busola.Busola"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jocuridemunte.SpinTheBottleActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jocuridemunte.JocuriActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jocuridemunte.XsiOActivity">
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+        </activity>
+    </application>
+
+</manifest>
